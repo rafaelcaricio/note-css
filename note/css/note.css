@@ -16,19 +16,18 @@ body,div,p,blockquote {
     margin: 30px;
     width: 230px;
     border: solid 1px #DFDFE1;
-    box-shadow: 0px 1px 5px 0px #DFDFE1;
+    box-shadow: 0px 1px 4px 0px #DFDFE1;
 }
 
 .paper .sticky-tape {
     -webkit-transform: rotate(-1deg);
     position: absolute;
     top: -10px;
-    margin-left: 70px;
+    margin-left: 50%;
+    left: -48px;
     height: 23px;
     width: 95px;
     border: solid 1px #DFDFE1;
-    border-left: 0;
-    border-right: 0;
     background-color: #FFF;
     opacity: 0.8;
 }
@@ -47,6 +46,7 @@ body,div,p,blockquote {
     margin-top: 30px;
     margin-bottom: 30px;
     padding-left: 26px;
+    padding-right: 26px;
     padding-bottom: 1px;
     background: url(../img/line.gif) repeat;
 }
