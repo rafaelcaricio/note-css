@@ -1,0 +1,60 @@
+/* reset */
+
+html{
+    color: #000;
+    background: #FFF;
+}
+
+body,div,p,blockquote { 
+    margin: 0;
+    padding: 0;
+}
+
+/* note */
+.paper {
+    position: relative;
+    margin: 30px;
+    width: 230px;
+    border: solid 1px #DFDFE1;
+    box-shadow: 0px 1px 5px 0px #DFDFE1;
+}
+
+.paper .sticky-tape {
+    -webkit-transform: rotate(-1deg);
+    position: absolute;
+    top: -10px;
+    margin-left: 70px;
+    height: 23px;
+    width: 95px;
+    border: solid 1px #DFDFE1;
+    border-left: 0;
+    border-right: 0;
+    background-color: #FFF;
+    opacity: 0.8;
+}
+
+.paper .vertical-lines {
+    width: 4px;
+    margin-left: 15px;
+    position: absolute;
+    height: 100%;
+    border: solid 1px #F1E9EA;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.paper .horizontal-lines {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 26px;
+    padding-bottom: 1px;
+    background: url(../img/line.gif) repeat;
+}
+
+.paper p {
+    padding-top: 2px;
+    line-height: 21px;
+    font-family: helvetica;
+    font-size: 12px;
+    color: #686A6B;
+}
